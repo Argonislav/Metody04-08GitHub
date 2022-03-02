@@ -16,5 +16,16 @@ namespace Metody04_08GitHub
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int zaklad = Convert.ToInt32(textBox1.Text), exponent = Convert.ToInt32(textBox2.Text);
+            label3.Text = "" + CelaCisla.Mocnina(zaklad, exponent);
+        }
     }
 }
