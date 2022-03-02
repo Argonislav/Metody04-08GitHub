@@ -90,6 +90,7 @@
             this.button2.TabIndex = 4;
             this.button2.Text = "metody05";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label1
             // 
@@ -108,6 +109,7 @@
             this.button3.TabIndex = 7;
             this.button3.Text = "metody06";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -117,6 +119,7 @@
             this.button4.TabIndex = 8;
             this.button4.Text = "metody07";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
@@ -126,6 +129,7 @@
             this.button5.TabIndex = 9;
             this.button5.Text = "metody08";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // textBox4
             // 
